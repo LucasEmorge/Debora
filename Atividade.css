@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* Estilo global */
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f5f7fa;
@@ -13,8 +12,6 @@ body {
     max-width: 1000px;
     margin: auto;
 }
-
-/* Títulos */
 h1 {
     color: #2c3e50;
     font-size: 2.5em;
@@ -30,16 +27,12 @@ h3 {
     margin-top: 20px;
     font-size: 1.4em;
 }
-
-/* Parágrafos e listas */
 p {
     margin: 10px 0;
 }
 ul, ol {
     margin: 10px 0 20px 20px;
 }
-
-/* Tabelas */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -56,8 +49,6 @@ tr:first-child td {
     font-weight: bold;
     background-color: #dce3ea;
 }
-
-/* Imagens */
 img {
     max-width: 100%;
     height: auto;
@@ -65,8 +56,6 @@ img {
     margin: 15px auto;
     border-radius: 8px;
 }
-
-/* Links */
 a {
     color: #2980b9;
     text-decoration: none;
@@ -75,8 +64,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
-/* Bloco de pseudocódigo */
 pre {
     background-color: #ecf0f1;
     padding: 15px;
@@ -86,8 +73,6 @@ pre {
     white-space: pre-wrap;
     margin: 20px 0;
 }
-
-/* Classes específicas */
 .P2, .D {
     color: #2c3e50;
     font-weight: bold;
@@ -121,9 +106,7 @@ pre {
   align-items: center;
   margin-bottom: 20px;
 }
-
 .esquerda, .direita {
-  /* opcional: para garantir alinhamento */
   flex: 1;
 }
 
